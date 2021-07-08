@@ -38,7 +38,8 @@ video {
   flex: 0.2;
   display: flex;
   flex-direction: column;
-  background-color: #242324;
+  background-color:#7B83EB;
+  color:#fff;
   border-left: 1px solid #3d3d42;
 }
 .main__videos {
@@ -59,16 +60,16 @@ video {
   display: flex;
 }
 .main__controls_button {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  min-width: 80px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 10px;
-  margin: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+    margin: 5px;
 }
 .main__controls_button span {
   margin-top: 10px;
@@ -85,7 +86,7 @@ video {
   color: #fff;
 }
 .main__header {
-  color: #f5f5f5;
+  background: #1c1e20;;
   text-align: center;
   padding: 20px;
   border-bottom: 2px solid #3d3d42;
@@ -93,9 +94,10 @@ video {
 .main__chat__window {
   flex-grow: 1;
   overflow: auto;
-  padding: 20px 20px 0 20px;
+  padding: 20px 4px 0 4px;
 }
 .main__message_container {
+  background: #1c1e20;;
   padding: 22px 11px;
   display: flex;
 }
@@ -111,8 +113,9 @@ video {
 #all_messages li {
   color: #fff;
   list-style: none;
-  border-bottom: 1px solid #3d3d42;
-  padding: 10px 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: #1c1e20;;
 }
 .unmute {
   color: red;
